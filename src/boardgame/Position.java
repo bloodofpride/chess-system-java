@@ -9,6 +9,14 @@ public class Position {
         this.column = column;
     }
 
+    public Integer getRow() {
+        return row;
+    }
+
+    public Integer getColumn() {
+        return column;
+    }
+
     public void setValues(int row, int column){
         this.row = row;
         this.column = column;

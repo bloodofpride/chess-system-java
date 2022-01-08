@@ -27,8 +27,12 @@ public class Board {
         this.columns = columns;
     }
 
-//    public Piece piece(int row, int columns){}
-//    public Piece piece(Position position){}
+    public Piece piece(int row, int columns){
+        return pieces[row][columns];
+    }
+    public Piece piece(Position position){
+        return pieces[position.getRow()][position.getColumn()];
+    }
 //    public void placePiece(Piece piece, Position position){}
 //    public void removePiece(Position position){}
 //    public boolean positionExists(Position position){}
